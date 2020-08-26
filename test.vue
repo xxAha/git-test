@@ -6,6 +6,7 @@
 export default {
   methods: {
     test (){
+      console.log(22222)
       console.log(1)
     },
     test2 () {
