@@ -7,7 +7,7 @@ export default {
   methods: {
     test (){
       console.log('xx222x')
-      console.log('9999')
+      console.log('9999kl')
     },
     test2 () {
       console.log(2)
