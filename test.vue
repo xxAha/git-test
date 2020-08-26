@@ -6,7 +6,7 @@
 export default {
   methods: {
     test (){
-      console.log('xxx')
+      console.log('xx222x')
     },
     test2 () {
       console.log(2)
