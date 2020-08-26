@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body, html {
+      width: 100%;
+      height: 500px;
+    }
+    #div {
+      height: 100%;
+      overflow: scroll;
+      background-color: red;
+    }
+    div {
+      height: 500px;
+      font-size: 42px;
+    }
+  </style>
+</head>
+<body>
+  <div id="div">
+    <button id="btn">跳转</button>
+    <div id="div1">1</div>
+    <div id="div2">2</div>
+    <div id="div3">3</div>
+    <div id="div4">4</div>
+    <div id="div5">5</div>
+    <div id="div6">6</div>
+    <div id="div7">7</div>
+    <div id="div8">8</div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    $('#btn').click(function(){
+      const top = $('#div3').offset().top
+      console.log(top)
+      // $('#div').scrollTop(top)
+      $('#div').animate({scrollTop: top}, 500)
+      console.log('top:',$('#div').scrollTop())
+    })
+  </script>
+</body>
+</html>
