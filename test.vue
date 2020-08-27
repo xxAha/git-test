@@ -1,5 +1,7 @@
 <template>
-  <div>{{$t('xxxxx')}}</div>
+  <div>{{$t('xxxxx')}}
+    <h1>111</h1>
+  </div> 
 </template>
 
 <script>
