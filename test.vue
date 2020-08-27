@@ -1,7 +1,6 @@
 <template>
   <div>{{$t('xxxxx')}}
     <h1>111</h1>
-    <h2>{{a}}</h2>
   </div> 
 </template>
 
